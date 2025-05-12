@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gtech.databaselogin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gtech.databaselogin.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gtech.databaselogin.Register" >
+        </activity>
+        <activity android:name="com.gtech.databaselogin.Welcome" >
+        </activity>
+        <activity android:name="com.gtech.databaselogin.ForgotPassword" >
+        </activity>
+        <activity android:name="com.gtech.databaselogin.Password_Recovery" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Smart"
+            android:label="@string/title_activity_smart" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Display"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Display1"
+            android:label="@string/title_activity_display1" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Flash"
+            android:label="@string/title_activity_flash" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.View"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Login"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Adminlog"
+            android:label="@string/title_activity_adminlog" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall"
+            android:label="@string/title_activity_seminar__hall" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall_Selection"
+            android:label="@string/title_activity_seminar__hall__selection" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall_I_View"
+            android:label="@string/title_activity_seminar__hall__i__view" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall_II_View"
+            android:label="@string/title_activity_seminar__hall__ii__view" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall_III_View"
+            android:label="@string/title_activity_seminar__hall__iii__view" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Display2"
+            android:label="@string/title_activity_display2" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Display_II"
+            android:label="@string/title_activity_display__ii" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Seminar_Hall_Selection_Admin"
+            android:label="@string/title_activity_seminar__hall__selection__admin" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Display3"
+            android:label="@string/title_activity_display3" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.NearestEVStation"
+            android:label="@string/title_activity_nearest_evstation" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.KarurEV"
+            android:label="@string/title_activity_karur_ev" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Calculation"
+            android:label="@string/title_activity_calculation" >
+        </activity>
+        <activity
+            android:name="com.gtech.databaselogin.Zeon"
+            android:label="@string/title_activity_zeon" >
+        </activity>
+    </application>
+
+</manifest>
